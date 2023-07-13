@@ -1,0 +1,95 @@
+*{
+    background-color: black;
+}
+
+
+.employees{
+    padding: 45px;
+}
+
+.inputDetails{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-content: space-around;
+}
+
+.inputDetails>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputDetails>div>input{
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: rgba(224, 88, 88, 0.948);
+    color: white;
+}
+
+.inputDetails>div>input:focus{
+    outline: none;
+    background-color: black; 
+}
+
+.inputDetails>div>label{
+    color: white;
+}
+
+.newEmployee>h3{
+    color: white;
+}
+
+.addUser{
+   margin-top: 14px;
+}    
+
+.addUser>button{
+    width: 100px;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+.viewFlex{
+    display: flex;
+    gap: 30px;
+    justify-items: center;
+}
+
+.viewFlex>.info{
+    display: flex;
+    gap: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    justify-self: center;
+}
+
+.viewContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.deleteButton{
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border-color: aliceblue;
+    border-radius: 20px;
+}
+
+.errorMsg{
+    color:red
+}
+
+.successMsg{
+    color:green
+}
+
+
+
+
+
